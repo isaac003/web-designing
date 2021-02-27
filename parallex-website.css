@@ -1,0 +1,126 @@
+;root{
+    box-sizing:border-box;
+}
+
+*,::before,::after{box-sizing: inherit;}
+
+*{margin:0;padding:0;}
+
+header {
+    min-height:40em;
+    background-image:url("fantasy-home.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position:center center;
+}
+
+body{
+font-family: Ariel, Helvetica,sans-serif;;
+}
+
+#section-1{
+min-height:20em;
+background-color:#aaaaff;
+}
+
+#hero-2{
+min-height:40em;
+background-image:url("rifle.jpg");
+background-repeat:no-repeat;
+background-size:100% 100%;
+background-position:center center;
+font-family:monospace;
+}
+
+#section-2{
+min-height:20em;
+background-color:#9b857a;
+}
+
+#hero-3{
+min-height:40em;
+background-image:url("watermelon.jpg");
+background-repeat:no-repeat;
+background-size:100% 100%;
+background-position:center center;
+font-family:monospace;
+}
+
+#section-3{
+min-height:20em;
+background-color:#ea4556;
+}
+
+#hero-4{
+min-height:40em;
+background-image:url("mushroom.jpg");
+background-repeat:no-repeat;
+background-size:100% 100%;
+background-position:center center;
+}
+
+#hero-1{
+display:flex;
+justify-content:center;
+flex-direction:column;
+align-items:center;
+}
+
+#hero-1 p{
+background-color:#d1d1d1;
+padding:0.8em;
+text-transform: uppercase;
+font-size:2.5em;
+color:#00addf;
+
+#aa66ff
+}
+
+#hero-1 #margin{
+margin-top:-52px;
+
+}
+#hero-4{
+display:flex;
+justify-content:center;
+flex-direction:column;
+align-items:center;
+}
+#hero-4 p{
+background-color:#d1d1d1;
+padding:0.8em;
+text-transform: uppercase;
+font-size:2.5em;
+color:#00addf;
+}
+
+#hero-4 #margin-2{
+margin-top:-52px;
+}
+
+.section{
+text-align:center;
+}
+
+.image-flex{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+
+.image-flex p{
+font-size:2.5em;
+color:#ffffff;
+}
+
+.quote-like{
+max-width:50%;
+margin:0 auto;
+padding:2em 0;
+text-align:center;
+}
+
+.quote-like h3{
+padding-bottom:1.5em;
+}
